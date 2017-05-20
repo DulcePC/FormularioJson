@@ -1,0 +1,47 @@
+body{
+	box-sizing: border-box;
+}
+header{
+	border: solid 1px red;
+	width: 100%;
+	box-sizing: border-box;
+}
+#jobs{
+	text-align: center;
+	width: 100%;
+	margin-top: 10px;
+}
+#logo{
+    margin-top: -68px;
+    box-sizing: border-box;
+    width: 70px;
+}
+
+#formulario{
+	width: 90%;
+	box-sizing: border-box;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px black;
+	background-color: #E0E8D7;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color:#FFFFF1;
+    background-color: #3CBC8D;
+    border-radius: 10px;
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color:#FFFFF1;
+    background-color: #3CBC8D;
+    border-radius: 10px;
+}
+}
