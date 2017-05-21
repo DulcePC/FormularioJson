@@ -2,39 +2,42 @@
 	<head>
 		<title>Oferta de empleo</title>
 		<link rel="stylesheet" href="css/micss.css">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+		<script src="js.js"></script>
 	</head>
 	<body>
 		<header>
-			<div><h1 id="jobs">Jobs</h1></div>
-			<div><img src="imagenes/logo.jpg" width="100" id="logo"></div>
+			<h1 id="jobs">Jobs</h1>
+			<img src="imagenes/logo.jpg" width="100" id="logo">
 		</header>	
 		<section>
-			<h1>Busca tu trabajo ahora!</h1>
-			<p>Job busca guarda los datos con los cuales te registraste y te envia automanticamente ofertas de empleo a tu cuenta de email y/o numero telefonico</p>
-			<p>Para recibir nuestras ofertas de empleo, registrate aqui:</p>
+			<h1 class="busca">Busca tu trabajo ahora!</h1>
+			<p id="descripcion">Jobs guarda los datos con los cuales te registraste y te envia automanticamente ofertas de empleo a tu cuenta de email y/o numero telefonico</p>
+			<p id="entra">Para recibir nuestras ofertas de empleo, registrate aqui:</p>
 		</section>
 		<div id="formulario">
 			<form>
 				<label for="nombres">Nombre</label>
-				<input type="text" id="nombre" name="nombre">
+				<input type="text" id="nombre" name="inf">
 				<br>
 				<label for="apellidos">Apellido</label>
-				<input type="text" id="apellido" name="apellido">
+				<input type="text" id="apellido" name="inf">
 				<br>
 				<label for="cedula">Cedula</label>
-				<input type="number" id="cedula" name="cedula">
+				<input type="number" id="cedula" name="inf">
 				<br>
 				<label for="email">Email</label>
-				<input type="text" id="email" name="email">
+				<input type="text" id="email" name="inf">
 				<br>
 				<label for="telefono">Telefono</label>
-				<input type="number" id="telefono" name="telefono">
+				<input type="number" id="telefono" name="inf">
 				<br>
 				<label for="direcciones">Direccion</label>
-				<input type="text" id="direccion" name="direccion">
+				<input type="text" id="direccion" name="inf">
 				<br>
 				<label for="carrera">Carrera</label>
 				<input type="text" id="carrera" name="carrera">
+				<button type="button" id="guardr" onclick="save()">guardar</button>
 			</form>
 		</div>
 	</body>
