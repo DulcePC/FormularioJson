@@ -77,6 +77,20 @@ input[type=number] {
     font-size: 15px;
 
 }
+input[type=date]{
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color:#FFFFF1;
+    background-color: #1CC8FF;
+    border-radius: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    text-transform: bold;
+    font-size: 15px;
+
+
+}
 #guardr{
  background-color: #4CAF50;
     border: none;
@@ -90,4 +104,26 @@ input[type=number] {
     cursor: pointer;
     align: center;
 
+}
+#listaDatos{
+    border: 1px solid;
+    width: 100%;
+    border-radius: 10px;
+    border-color:blue;
+    background-color: #FFFFF1;
+
+
+}
+#listaDatos thead{
+    background-color: black;
+    color:white;
+    font-family:'Fjalla One', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    
+}
+td{
+    border:3px solid;
+    height: 10px;
+    color:green;
 }
